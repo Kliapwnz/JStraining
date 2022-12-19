@@ -19,3 +19,5 @@ const gerRandomNumber = () => {
     const randomNumber = Math.round(Math.random() * 100)
     return randomNumber
 }
+
+const number = gerRandomNumber()
