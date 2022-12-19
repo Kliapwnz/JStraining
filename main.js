@@ -24,8 +24,10 @@ const number = gerRandomNumber()
 
 console.log(number, name)
 
-const game = ()=>{
-
+const game = (max, min, attNumber, randomNumber, name)=>{
+    alert(`Привет, ${name}!
+    Я загадал число в интервале от ${min} до ${max}.
+    У тебя есть ${attNumber} попыток, что бы отгадать это число.`)
 }
 
 game(MAX,MIN, ATTEMPTS_NUMBER, number, name)
