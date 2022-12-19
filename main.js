@@ -36,6 +36,7 @@ const game = (max, min, attNumber, randomNumber, name) => {
             alert("Моё число больше")
         } else {
             alert("Ты угадал!!!!")
+            return
         }
     }
 }
