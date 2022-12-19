@@ -14,3 +14,7 @@ function getPlayerName() {
 }
 
 const name = getPlayerName()
+
+const gerRandomNumber = () => {
+
+}
