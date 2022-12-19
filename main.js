@@ -24,13 +24,20 @@ const number = gerRandomNumber()
 
 console.log(number, name)
 
-const game = (max, min, attNumber, randomNumber, name)=>{
+const game = (max, min, attNumber, randomNumber, name) => {
     alert(`Привет, ${name}!
     Я загадал число в интервале от ${min} до ${max}.
     У тебя есть ${attNumber} попыток, что бы отгадать это число.`)
     for (let i = 0; i < attNumber; i++) {
-        const playerAnswer = prompt("Какое число я загадал?","")
+        const playerAnswer = prompt("Какое число я загадал?", "")
+        if (playerAnswer > randomNumber) {
+            alert("Моё число меньше")
+        } else if (playerAnswer < randomNumber) {
+            alert("Моё число больше")
+        } else {
+            alert("Ты угадал!!!!")
+        }
     }
 }
 
-game(MAX,MIN, ATTEMPTS_NUMBER, number, name)
+game(MAX, MIN, ATTEMPTS_NUMBER, number, name)
