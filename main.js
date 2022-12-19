@@ -16,5 +16,6 @@ function getPlayerName() {
 const name = getPlayerName()
 
 const gerRandomNumber = () => {
-
+    const randomNumber = Math.round(Math.random() * 100)
+    return randomNumber
 }
