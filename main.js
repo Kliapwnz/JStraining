@@ -28,6 +28,9 @@ const game = (max, min, attNumber, randomNumber, name)=>{
     alert(`Привет, ${name}!
     Я загадал число в интервале от ${min} до ${max}.
     У тебя есть ${attNumber} попыток, что бы отгадать это число.`)
+    for (let i = 0; i < attNumber; i++) {
+        const playerAnswer = prompt("Какое число я загадал?","")
+    }
 }
 
 game(MAX,MIN, ATTEMPTS_NUMBER, number, name)
