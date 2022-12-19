@@ -34,7 +34,7 @@ const game = (max, min, attNumber, randomNumber, name) => {
             alert("Моё число меньше")
         } else if (playerAnswer < randomNumber) {
             alert("Моё число больше")
-        } else if (playerAnswer == randomNumber){
+        } else if (playerAnswer == randomNumber) {
             alert("Ты угадал!!!!")
             return
         }
