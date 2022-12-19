@@ -23,3 +23,9 @@ const gerRandomNumber = () => {
 const number = gerRandomNumber()
 
 console.log(number, name)
+
+const game = ()=>{
+
+}
+
+game(MAX,MIN, ATTEMPTS_NUMBER, number, name)
