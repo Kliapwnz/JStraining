@@ -39,6 +39,7 @@ const game = (max, min, attNumber, randomNumber, name) => {
             return
         }
     }
+    alert(`Дружище, ты не справился с заданием за ${attNumber}`)
 }
 
 game(MAX, MIN, ATTEMPTS_NUMBER, number, name)
