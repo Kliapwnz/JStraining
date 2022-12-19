@@ -21,3 +21,5 @@ const gerRandomNumber = () => {
 }
 
 const number = gerRandomNumber()
+
+console.log(number, name)
